@@ -13,5 +13,5 @@
 -- May need to create the Map directory if the game has not been played
 
 2. Common Issues
-- Protobuf vesrion
--- pip install protobuf==3.20.*
+- Protobuf version
+-- pip install protobuf==3.2
