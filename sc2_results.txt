@@ -1,6 +1,230 @@
+AbyssalReefLE Map
+
+----- Experiment Results ------
+Max Stalker/Voidray : 8/4
+Total Games: 10
+Wins: 4
+Losses: 6
+Difficulty: Harder
+Computer Race: Terran
+*************************
 ----- Experiment Results ------
 Max Stalker/Voidray : 10/5
 Total Games: 10
 Wins: 3
 Losses: 7
+Difficulty: Harder
+Computer Race: Terran
+*************************
+----- Experiment Results ------
+Max Stalker/Voidray : 12/6
+Total Games: 10
+Wins: 2
+Losses: 8
+Difficulty: Harder
+Computer Race: Terran
+*************************
+----- Experiment Results ------
+Max Stalker/Voidray : 14/7
+Total Games: 10
+Wins: 3
+Losses: 7
+Difficulty: Harder
+Computer Race: Terran
+*************************
+----- Experiment Results ------
+Max Stalker/Voidray : 16/8
+Total Games: 10
+Wins: 6
+Losses: 4
+Difficulty: Harder
+Computer Race: Terran
+*************************
+----- Experiment Results ------
+Max Stalker/Voidray : 18/9
+Total Games: 10
+Wins: 2
+Losses: 8
+Difficulty: Harder
+Computer Race: Terran
+*************************
+----- Experiment Results ------
+Max Stalker/Voidray : 8/4
+Total Games: 10
+Wins: 8
+Losses: 2
+Difficulty: Medium
+Computer Race: Terran
+*************************
+----- Experiment Results ------
+Max Stalker/Voidray : 10/5
+Total Games: 10
+Wins: 9
+Losses: 1
+Difficulty: Medium
+Computer Race: Terran
+*************************
+----- Experiment Results ------
+Max Stalker/Voidray : 12/6
+Total Games: 10
+Wins: 8
+Losses: 2
+Difficulty: Medium
+Computer Race: Terran
+*************************
+----- Experiment Results ------
+Max Stalker/Voidray : 14/7
+Total Games: 10
+Wins: 7
+Losses: 3
+Difficulty: Medium
+Computer Race: Terran
+*************************
+
+BelShirVestigeLE Map 
+
+----- Experiment Results ------
+Max Stalker/Voidray : 8/4
+Total Games: 10
+Wins: 10
+Losses: 0
+Difficulty: Medium
+Computer Race: Terran
+*************************
+----- Experiment Results ------
+Max Stalker/Voidray : 10/5
+Total Games: 10
+Wins: 9
+Losses: 1
+Difficulty: Medium
+Computer Race: Terran
+*************************
+----- Experiment Results ------
+Max Stalker/Voidray : 8/4
+Total Games: 10
+Wins: 3
+Losses: 7
+Difficulty: Harder
+Computer Race: Terran
+*************************
+
+
+******************************************************************************************
+AbyssalReefLE Map (vs Zerg)
+
+----- Experiment Results ------
+Max Stalker/Voidray : 8/4
+Total Games: 5
+Wins: 4
+Losses: 1
+Difficulty: Medium
+Computer Race: Zerg
+*************************
+----- Experiment Results ------
+Max Stalker/Voidray : 8/4
+Total Games: 5
+Wins: 3
+Losses: 2
+Difficulty: Harder
+Computer Race: Zerg
+*************************
+
+******************************************************************************************
+AbyssalReefLE Map (vs Protoss)
+
+----- Experiment Results ------
+Max Stalker/Voidray : 8/4
+Total Games: 5
+Wins: 3
+Losses: 2
+Difficulty: Medium
+Computer Race: Protoss
+*************************
+----- Experiment Results ------
+Max Stalker/Voidray : 8/4
+Total Games: 5
+Wins: 3
+Losses: 2
+Difficulty: Harder
+Computer Race: Protoss
+*************************
+
+******************************************************************************************
+AbyssalReefLE Map (vs Terran, RushBuild)
+
+----- Experiment Results ------
+Max Stalker/Voidray : 8/4
+Total Games: 5
+Wins: 0
+Losses: 5
+Difficulty: Harder
+Computer Race: Terran
+*************************
+
+******************************************************************************************
+AbyssalReefLE Map (vs Terran, TimingBuild)
+
+----- Experiment Results ------
+Max Stalker/Voidray : 8/4
+Total Games: 5
+Wins: 1
+Losses: 4
+Difficulty: Harder
+Computer Race: Terran
+*************************
+
+******************************************************************************************
+AbyssalReefLE Map (vs Terran, PowerBuild)
+
+----- Experiment Results ------
+Max Stalker/Voidray : 8/4
+Total Games: 5
+Wins: 3
+Losses: 2
+Difficulty: Harder
+Computer Race: Terran
+*************************
+
+******************************************************************************************
+AbyssalReefLE Map (vs Terran, MacroBuild)
+
+----- Experiment Results ------
+Max Stalker/Voidray : 8/4
+Total Games: 5
+Wins: 3
+Losses: 2
+Difficulty: Harder
+Computer Race: Terran
+*************************
+
+******************************************************************************************
+AbyssalReefLE Map (vs Terran, AirBuild)
+
+----- Experiment Results ------
+Max Stalker/Voidray : 8/4
+Total Games: 5
+Wins: 3
+Losses: 2
+Difficulty: Harder
+Computer Race: Terran
+*************************
+
+******************************************************************************************
+AbyssalReefLE Map (vs Terran)
+
+----- Experiment Results ------
+Max Stalker/Voidray : 8/8
+Total Games: 5
+Wins: 3
+Losses: 2
+Difficulty: Harder
+Computer Race: Terran
+*************************
+----- Experiment Results ------
+Max Stalker/Voidray : 6/6
+Total Games: 5
+Wins: 1
+Losses: 4
+Difficulty: Harder
+Computer Race: Terran
 *************************

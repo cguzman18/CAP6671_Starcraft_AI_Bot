@@ -1,5 +1,5 @@
 import sc2
-from sc2 import run_game, maps, Race, Difficulty, Result
+from sc2 import run_game, maps, Race, Difficulty, Result, AIBuild
 from sc2.player import Bot, Computer
 from sc2.constants import NEXUS, PROBE, PYLON, ASSIMILATOR, GATEWAY, CYBERNETICSCORE, STALKER, STARGATE, VOIDRAY
 import random
@@ -106,35 +106,32 @@ class SentdeBot(sc2.BotAI):
                     for s in self.units(UNIT).idle:
                         await self.do(s.attack(random.choice(self.known_enemy_units)))
 
-max_stalker = 10
-max_voidray = 5
+max_stalker = 6
+max_voidray = 6
+wins = 0
+losses = 0
 
-for i in range(5):
-    wins = 0
-    losses = 0
-
-    for j in range(10):
-        results = run_game(maps.get("AbyssalReefLE"), [ Bot(Race.Protoss, SentdeBot(max_stalker,max_voidray)), Computer(Race.Terran, Difficulty.Hard)], realtime=False)
-        if results == Result.Victory:
-            wins += 1
-        else:
-            losses += 1
+for j in range(5):
+    results = run_game(maps.get("AbyssalReefLE"), [ Bot(Race.Protoss, SentdeBot(max_stalker,max_voidray)), Computer(Race.Terran, Difficulty.Hard)], realtime=False)
+    if results == Result.Victory:
+        wins += 1
+    else:
+        losses += 1
     
-    f = open("sc2_results.txt","a")
-    f.write("----- Experiment Results ------\n")
-    f.write("Max Stalker/Voidray : " + str(max_stalker) + "/" + str(max_voidray) + "\n")
-    f.write("Total Games: " + str(wins+losses) + "\n")
-    f.write("Wins: " + str(wins) + "\n")
-    f.write("Losses: " + str(losses) + "\n")
-    f.write("Difficulty: Harder\n")
-    f.write("Computer Race: Terran\n")
-    f.write("*************************\n")
-    f.close()
+f = open("sc2_results.txt","a")
+f.write("----- Experiment Results ------\n")
+f.write("Max Stalker/Voidray : " + str(max_stalker) + "/" + str(max_voidray) + "\n")
+f.write("Total Games: " + str(wins+losses) + "\n")
+f.write("Wins: " + str(wins) + "\n")
+f.write("Losses: " + str(losses) + "\n")
+f.write("Difficulty: Harder\n")
+f.write("Computer Race: Terran\n")
+f.write("*************************\n")
+f.close()
 
-    print ("----- Experiment Results ------")
-    print ("Total Games: " + str(wins+losses))
-    print ("Wins: " + str(wins))
-    print ("Losses: " + str(losses))
+print ("----- Experiment Results ------")
+print ("Total Games: " + str(wins+losses))
+print ("Wins: " + str(wins))
+print ("Losses: " + str(losses))
 
-    max_stalker += 2
-    max_voidray += 1
+
