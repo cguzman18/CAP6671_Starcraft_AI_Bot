@@ -228,3 +228,11 @@ Losses: 4
 Difficulty: Harder
 Computer Race: Terran
 *************************
+----- Experiment Results ------
+Max Stalker/Voidray : 6/6
+Total Games: 3
+Wins: 0
+Losses: 3
+Difficulty: Harder
+Computer Race: Terran
+*************************

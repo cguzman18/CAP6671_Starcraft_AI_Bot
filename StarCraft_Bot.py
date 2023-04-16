@@ -5,7 +5,7 @@ from sc2.constants import NEXUS, PROBE, PYLON, ASSIMILATOR, GATEWAY, CYBERNETICS
 import random
 
 
-class SentdeBot(sc2.BotAI):
+class NebulaMind(sc2.BotAI):
     def __init__(self, MAX_STALKER, MAX_VOIDRAY):
         self.ITERATIONS_PER_MINUTE = 165
         self.MAX_WORKERS = 50
@@ -112,7 +112,7 @@ wins = 0
 losses = 0
 
 for j in range(5):
-    results = run_game(maps.get("AbyssalReefLE"), [ Bot(Race.Protoss, SentdeBot(max_stalker,max_voidray)), Computer(Race.Terran, Difficulty.Hard)], realtime=False)
+    results = run_game(maps.get("AbyssalReefLE"), [ Bot(Race.Protoss, NebulaMind(max_stalker,max_voidray)), Computer(Race.Terran, Difficulty.Hard)], realtime=False)
     if results == Result.Victory:
         wins += 1
     else:
