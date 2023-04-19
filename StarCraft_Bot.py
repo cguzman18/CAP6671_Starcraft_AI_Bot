@@ -106,13 +106,13 @@ class NebulaMind(sc2.BotAI):
                     for s in self.units(UNIT).idle:
                         await self.do(s.attack(random.choice(self.known_enemy_units)))
 
-max_stalker = 6
-max_voidray = 6
+max_stalker = 16
+max_voidray = 8
 wins = 0
 losses = 0
 
 for j in range(5):
-    results = run_game(maps.get("AbyssalReefLE"), [ Bot(Race.Protoss, NebulaMind(max_stalker,max_voidray)), Computer(Race.Terran, Difficulty.Hard)], realtime=False)
+    results = run_game(maps.get("AbyssalReefLE"), [ Bot(Race.Protoss, NebulaMind(max_stalker,max_voidray)), Computer(Race.Terran, Difficulty.Medium)], realtime=False)
     if results == Result.Victory:
         wins += 1
     else:

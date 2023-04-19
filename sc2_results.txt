@@ -80,6 +80,22 @@ Losses: 3
 Difficulty: Medium
 Computer Race: Terran
 *************************
+----- Experiment Results ------
+Max Stalker/Voidray : 16/8
+Total Games: 10
+Wins: 4
+Losses: 6
+Difficulty: Medium
+Computer Race: Terran
+*************************
+----- Experiment Results ------
+Max Stalker/Voidray : 18/9
+Total Games: 10
+Wins: 4
+Losses: 6
+Difficulty: Medium
+Computer Race: Terran
+*************************
 
 BelShirVestigeLE Map 
 
@@ -225,14 +241,6 @@ Max Stalker/Voidray : 6/6
 Total Games: 5
 Wins: 1
 Losses: 4
-Difficulty: Harder
-Computer Race: Terran
-*************************
------ Experiment Results ------
-Max Stalker/Voidray : 6/6
-Total Games: 3
-Wins: 0
-Losses: 3
 Difficulty: Harder
 Computer Race: Terran
 *************************
